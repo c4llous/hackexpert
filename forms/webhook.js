@@ -20,8 +20,8 @@ document.getElementById("send").onclick = (e) => {
                             "value": email
                         },
                         {
-                            "name": "Message",
-                            "value": message
+                            "name": "Name",
+                            "value": name
                         },
                         {
                             "name": "subject",
