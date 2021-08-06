@@ -70,7 +70,7 @@
             </ul>
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="mailto:info@mrhackexpert.com">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -124,24 +124,22 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <span class="dummy">
-              <p>
+              <details>
+              <summary>
                 At HackExpert, our mission is to aware students and It professionals towards Cyber Security and Best
                 Practices towards Secure programming and Ethical Hacking. There are lot of problems faced by People
                 starting thier careers in CyberScurity like they have no idea where to begin....
-              </p>
+              </summary>
               <!-- <a href="javascript:void(0)" class="btn-learn-more">Read More</a> -->
-            </span>
-            <span class="dummy">
+            
               <p>
-                At HackExpert, our mission is to aware students and It professionals towards Cyber Security and Best
-                Practices towards Secure programming and Ethical Hacking. There are a lot of problems faced by People
-                starting their careers in cybersecurity like they have no idea where to begin, which is a crucial
+                which is a crucial
                 decision to make, Finding a Good mentor who is not just reading theory to you rather have experience in
                 hacking as well, Some people get scared to shift on cyberSecurity due to the vast nature of the field.
                 We aim to bust all of these factors by providing Live coaching by our experienced Cyber Security
                 experts, with 24/7 live forum to ask questions and learn at your own pace. We provide you a learning
                 path according to you capabilities, suggesting you a career in you stongest area of interest.
-              </p>
+              </p></details>
               <!-- <a href="javascript:void(0)" class="btn-learn-more">Less</a> -->
             </span>
 
@@ -379,11 +377,7 @@
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
-
-
-
-    <!-- ======= Team Section ======= -->
+    </section> -->
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -400,7 +394,7 @@
               <div class="pic"><img src="assets/img/team/ani3.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Anirudh </h4>
-                <span>Penetration Tester</span>
+                <span>Penetration Tester and backend Developer</span>
                 <p>"Alone we can do so little; together we can do so much."</p>
                 <div class="social">
                   <a href="https://twitter.com/ClarkeAGrifin"><i class="ri-twitter-fill"></i></a>
@@ -417,7 +411,7 @@
               <div class="pic"><img src="assets/img/team/ritesh.jpeg" class="img-fluid" alt="ritesh"></div>
               <div class="member-info">
                 <h4>Ritesh Singh</h4>
-                <span>Website Dveloper and Penetration Tester </span>
+                <span>Web Developer and Penetration Tester </span>
                 <p>"Website without visitors is like a ship lost in the horizon. "</p>
                 <div class="social">
                   <a href="https://twitter.com/Riteshh00"><i class="ri-twitter-fill"></i></a>
@@ -493,7 +487,9 @@
                       <!-- <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
                 <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
                     </ul>
-                    <a href="#" class="buy-btn">Get Started</a>
+                    <div style="padding-top: 275px;">
+                    <a href="#contact" class="buy-btn">Get Started</a>
+                    </div>
                   </div>
                 </div>
 
@@ -510,7 +506,7 @@
                       <li class="na"><i class="bx bx-x"></i> <span> Web Development with Django</span></li>
                       <li class="na"><i class="bx bx-x"></i> <span>one on one indivisual classes</span></li>
                     </ul>
-                    <a href="#" class="buy-btn">Get Started</a>
+                    <a href="#contact" class="buy-btn">Get Started</a>
                   </div>
                 </div>
 
@@ -527,7 +523,7 @@
                       <li><i class="bx bx-check"></i> Web Development with Django</li>
                       <li><i class="bx bx-check"></i> <span>one on one indivisual classes</span></li>
                     </ul>
-                    <a href="#" class="buy-btn">Get Started</a>
+                    <a href="#contact" class="buy-btn">Get Started</a>
                   </div>
                 </div>
 
@@ -672,31 +668,31 @@
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <form method="post" role="form" class="php-email-form">
                     <div class="row">
                       <div class="form-group col-md-6">
                         <label for="name">Your Name</label>
-                        <input type="text" name="name" class="form-control" id="name" required>
+                        <input type="text" name="name" class="form-control" id="name" autocomplete="off" required>
                       </div>
                       <div class="form-group col-md-6">
                         <label for="name">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email" required>
+                        <input type="email" class="form-control" name="email" id="email" autocomplete="off" required>
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="name">Subject</label>
-                      <input type="text" class="form-control" name="subject" id="subject" required>
+                      <input type="text" class="form-control" name="subject" id="subject" autocomplete="off" required>
                     </div>
                     <div class="form-group">
                       <label for="name">Message</label>
-                      <textarea class="form-control" name="message" rows="10" required></textarea>
+                      <textarea class="form-control" name="message" rows="10" id="message" autocomplete="off" required></textarea>
                     </div>
                     <div class="my-3">
-                      <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                      
+                      <div id="error"></div>
+                      <div id="response"></div>
                     </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
+                    <div class="text-center"><button id="send" type="submit">Send Message</button></div>
                   </form>
                 </div>
 
@@ -785,7 +781,7 @@
       </div>
       <div class="credits">
 
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">HACKEXPERT</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -805,7 +801,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+   <!-- webhhok js  -->
+   <script src="forms/webhook.js"></script>
 
 </body>
 
